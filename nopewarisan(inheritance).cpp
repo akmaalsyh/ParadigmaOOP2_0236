@@ -9,3 +9,12 @@ public:
         cout << "Hallo saya Function dari base class";
     }
 };
+
+class derrivedClass : public baseClass
+{
+public:
+    void perkenalan()
+    {
+        cout << "Hallo saya Function dari derrived class";
+    }
+};
